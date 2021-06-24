@@ -1,0 +1,624 @@
+h1 {
+    position: absolute;
+    left: 430;
+    top: 0px;
+    color:black;
+}
+
+@media screen and (max-width : 700px) {
+    h1 {
+        position: absolute;
+        left: 21%;
+        top: 21%;
+        color:white;
+        height: 1%;
+        width: 140%;
+        font-size: 175%;
+    }
+} 
+
+
+div.h2 { font-family: Arial Black, Gadget, sans-serif;}
+div.h2 { font-size: 300;}
+
+input[id="krm1"] {
+    width: 6%;
+    height: 3%;
+    position: absolute;
+    left: 450;
+    top: 100px;
+}
+
+input[id="krm2"] {
+    width: 6%;
+    height: 3%;
+    size: 1cm;
+    position: absolute;
+    left: 450;
+    top: 130px;
+}
+
+input[id="krm3"] {
+    width: 6%;
+    height: 3%;
+    size: 1cm;
+    position: absolute;
+    left: 450;
+    top: 160px;
+}
+
+input[id="krm4"] {
+    width: 6%;
+    height: 3%;
+    size: 1cm;
+    position: absolute;
+    left: 450;
+    top: 190px;
+}
+input[id="final"] {
+    width: 6%;
+    height: 3%;
+    size: 1cm;
+    position: absolute;
+    left: 450;
+    top: 280px;
+}
+
+input[id="abd1"] {
+    width: 6%;
+    height: 3%;
+    size: 1cm;
+    position: absolute;
+    left: 780;
+    top: 100px;
+}
+
+input[id="abd2"] {
+    width: 6%;
+    height: 3%;
+    size: 1cm;
+    position: absolute;
+    left: 780;
+    top: 130px;
+}
+
+input[id="abd3"] {
+    width: 6%;
+    height: 3%;
+    size: 1cm;
+    position: absolute;
+    left: 780;
+    top: 160px;
+}
+
+input[id="abd4"] {
+    width: 6%;
+    height: 3%;
+    size: 1cm;
+    position: absolute;
+    left: 780;
+    top: 190px;
+}
+
+input[id="but"] {
+    width: 6%;
+    height: 3%;
+    size: 1cm;
+    position: absolute;
+    left: 780;
+    top: 280px;
+}
+
+
+/* input mobil */
+
+@media screen and (max-width : 700px) {
+    input[id="krm1"] {
+    width: 35%;
+    height: 10%;
+    position: absolute;
+    left: 120%;
+    top: 30%;
+}
+
+    input[id="krm2"] {
+    width: 35%;
+    height: 10%;
+    position: absolute;
+    left: 120%;
+    top: 45%;
+    }
+
+    input[id="krm3"] {
+    width: 35%;
+    height: 10%;
+    position: absolute;
+    left: 120%;
+    top: 60%;
+    }
+
+    input[id="krm4"] {
+    width: 35%;
+    height: 10%;
+    position: absolute;
+    left: 120%;
+    top: 75%;
+    }
+    input[id="final"] {
+    width: 35%;
+    height: 10%;
+    position: absolute;
+    left: 120%;
+    top: 90%;
+    }
+
+    input[id="abd1"] {
+        width: 35%;
+        height: 10%;
+        position: absolute;
+        left: 120%;
+        top: 105%;
+    }
+
+    input[id="abd2"] {
+        width: 35%;
+        height: 10%;
+        position: absolute;
+        left: 120%;
+        top: 120%;
+    }
+
+    input[id="abd3"] {
+        width: 35%;
+    height: 10%;
+    position: absolute;
+    left: 120%;
+    top: 135%;
+    }
+
+    input[id="abd4"] {
+        width: 35%;
+    height: 10%;
+    position: absolute;
+    left: 120%;
+    top: 150%;
+    }
+
+    input[id="but"] {
+        width: 35%;
+    height: 10%;
+    position: absolute;
+    left: 120%;
+    top: 165%;
+    }
+    
+    
+    
+} 
+
+button[id="butons"] {
+    position: absolute;
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        left: 630;
+        top: 350px
+      }
+
+/* HESAPLA BUTONU MOBİL */
+
+@media screen and (max-width : 700px) {
+    button[id="butons"] {
+        position: absolute;
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 40px 72px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 150%;
+            left: 50%;
+            top: 200%
+          }
+}
+
+p[id="ders1"] {
+    position: absolute;
+    left: 290;
+    top: 90px;
+}
+p[id="ders2"] {
+    position: absolute;
+    left: 290;
+    top: 119px;
+}
+p[id="ders3"] {
+    position: absolute;
+    left: 290;
+    top: 148px;
+}
+p[id="ders4"] {
+    position: absolute;
+    left: 290;
+    top: 177px;
+}
+p[id="finalp"] {
+    position: absolute;
+    left: 290;
+    top: 268px;
+}
+p[id="ders5"] {
+    position: absolute;
+    left: 580;
+    top: 90px;
+}
+p[id="ders6"] {
+    position: absolute;
+    left: 580;
+    top: 119px;
+}
+p[id="ders7"] {
+    position: absolute;
+    left: 580;
+    top: 148px;
+}
+p[id="ders8"] {
+    position: absolute;
+    left: 580;
+    top: 177px;
+}
+
+p[id="butp"] {
+    position: absolute;
+    left: 580;
+    top: 268px;
+}
+
+p[id="times"] {
+    position: absolute;
+    left: 600;
+    top: 390px;
+    font-size: 115%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p[id="sonuc_backround"] {
+    background-color:whitesmoke;
+    position: absolute;
+    left: 500px;
+    top: 420px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 2px solid black;
+    padding: 50px;
+    width: 20%;
+}
+
+p[id="logo_backround"] {
+    background-color: lightblue;
+    position: absolute;
+    left: 250px;
+    top: 75px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 2px solid black;
+    padding: 50px;
+    width: 56%;
+    height: 4%;
+}
+
+p[id="fb_backround"] {
+    background-color: lightblue;
+    position: absolute;
+    left: 250px;
+    top: 250px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: 2px solid black;
+    padding: 25px;
+    width: 59.5%;
+    height: 0%;
+}
+
+
+
+p[id="sonuc_ekranı"] {
+    position: absolute;
+    left: 630;
+    top: 430px;
+}
+
+
+p[id="sonuc1"] {
+    position: absolute;
+    left: 510;
+    top: 450px;
+}
+
+p[id="sonuc2"] {
+    position: absolute;
+    left: 510;
+    top: 470px;
+}
+
+
+/* textlerin MOBİL SÜRÜMÜ */
+
+@media screen and (max-width : 700px) {
+    p[id="ders1"] {
+        position: absolute;
+        left: 10%;
+        top: 25%;
+        width: 115%;
+        height: 10%;
+        font-size: 250%;
+    }
+    p[id="ders2"] {
+        position: absolute;
+        left: 10%;
+        top: 40%;
+        width: 115%;
+        height: 10%;
+        font-size: 250%;
+    }
+    p[id="ders3"] {
+        position: absolute;
+        left: 10%;
+        top: 55%;
+        width: 115%;
+        height: 10%;
+        font-size: 250%;
+    }
+    p[id="ders4"] {
+        position: absolute;
+        left: 10%;
+        top: 70%;
+        width: 115%;
+        height: 10%;
+        font-size: 250%;
+    }
+    p[id="finalp"] {
+        position: absolute;
+        left: 10%;
+        top: 85%;
+        width: 115%;
+        height: 10%;
+        font-size: 250%;
+    }
+    p[id="ders5"] {
+        position: absolute;
+        left: 10%;
+        top: 100%;
+        width: 125%;
+        height: 10%;
+        font-size: 250%;
+    }
+    p[id="ders6"] {
+        position: absolute;
+        left: 10%;
+        top: 115%;
+        width: 125%;
+        height: 10%;
+        font-size: 250%;
+    }
+    p[id="ders7"] {
+        position: absolute;
+        left: 10%;
+        top: 130%;
+        width: 125%;
+        height: 10%;
+        font-size: 250%;
+    }
+    p[id="ders8"] {
+        position: absolute;
+        left: 10%;
+        top: 145%;
+        width: 125%;
+        height: 10%;
+        font-size: 250%;
+    }
+    
+    p[id="butp"] {
+        position: absolute;
+        left: 10%;
+        top: 160%;
+        width: 125%;
+        height: 10%;
+        font-size: 250%;
+    }
+    
+    p[id="times"] {
+        position: absolute;
+        left: 20%;
+        top: 220%;
+        width: 150%;
+        font-size: 250%;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    p[id="sonuc_backround"] {
+        background-color:whitesmoke;
+        position: absolute;
+        left: 15%;
+        top: 250%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        border: 2px solid black;
+        padding: 50px;
+        width: 105%;
+        height: 50%;
+    }
+    
+    p[id="logo_backround"] {
+        background-color: white;
+        position: absolute;
+        left: 70%;
+        top: 0%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        border: 2px solid black;
+        padding: 50px;
+        width: 10%;
+        height: 5.5%;
+
+    }
+    
+    p[id="fb_backround"] {
+        background-color: lightblue;
+        position: absolute;
+        left: 250px;
+        top: 250px;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        border: 2px solid black;
+        padding: 25px;
+        width: 59.5%;
+        height: 0%;
+        display: none;
+    }
+    
+    
+    
+    p[id="sonuc_ekranı"] {
+        position: absolute;
+        left: 45%;
+        top: 250%;
+        width: 100%;
+        font-size: 250%;
+    }
+    
+    
+    p[id="sonuc1"] {
+        position: absolute;
+        left: 25%;
+        top: 265%;
+        font-size: 150%;
+        width: 150%;
+    }
+    
+    p[id="sonuc2"] {
+        position: absolute;
+        left: 25%;
+        top: 280%;
+        font-size: 150%;
+        width: 150%;
+    }
+    
+    
+
+}
+
+
+
+
+
+div.a {font-family: verdana;}
+div.a {font-size: 55;}
+
+div.a {
+    position: absolute;
+    left: 900;
+    top: 120px;
+}
+/* OCM MOBİL GÖRÜNÜM */
+@media screen and (max-width: 700px) {
+    div.a {font-family: verdana;}
+    div.a {font-size: 55;}
+
+    div.a {
+        position: absolute;
+        left: 10%;
+        top: 180%;
+}  
+
+}
+
+
+
+body {background-color:white;}
+
+select[id="ocm_"] {
+    background-color: lightblue;
+    position: absolute;
+    left: 1040;
+    top: 130px;
+    width: 6%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+  }
+
+/* OCM1 MOBİL GÖRÜNÜM */
+@media screen and (max-width: 700px) {
+    select[id="ocm_"] {
+        background-color: lightblue;
+        position: absolute;
+        left: 120%;
+        top: 182%;
+        width: 35%;
+        padding: 16px 20px;
+        border: none;
+        border-radius: 4px;
+        background-color: #f1f1f1;
+        }
+
+}
+
+
+img[id="deupng"] {
+    max-width: 40%;
+    position: absolute;
+    left: 1175;
+    top: 45px
+}
+img[id="logo1"] {
+    position: absolute;
+    left: 1%;
+    top: 0.5%;
+    max-width: 10%;
+
+}
+/* ROCKET KAPATMA
+img[id="rocket1"] {
+    position: absolute;
+    left: 0;
+    top: 420px;
+}
+
+
+img[id="rocket2"] {
+    position: absolute;
+    left: 1050;
+    top: 420px;
+}
+
+img[id="zincir"] {
+    position: absolute;
+    left: 500;
+    top: 0px;
+}
+
+/* img mobil */
+
+@media screen and (max-width: 700px) {
+
+    body {background-color:lightblue;}
+    img[id="deupng"] {
+        max-width: 10%;
+        position: absolute;
+        left: 300;
+        top: 70%
+    }
+    img[id="logo1"] {
+        position: absolute;
+        left: 72.50%;
+        top: 1%;
+        max-width: 30%;
+}
