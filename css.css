@@ -122,91 +122,92 @@ input[id="but"] {
 @media screen and (max-width : 700px) {
     input[id="krm1"] {
     width: 35%;
-    height: 10%;
+    height: 6.9%;
     position: absolute;
     left: 128%;
-    top: 30%;
+    top: 31.6%;
     font-size: 25px;
+    border: white;
 }
 
     input[id="krm2"] {
     width: 35%;
-    height: 10%;
+    height: 6.9%;
     position: absolute;
     left: 128%;
-    top: 45%;
+    top: 46.6%;
     font-size: 25px;
     }
 
     input[id="krm3"] {
     width: 35%;
-    height: 10%;
+    height: 6.9%;
     position: absolute;
     left: 128%;
-    top: 60%;
+    top: 61.6%;
     font-size: 25px;
     }
 
     input[id="krm4"] {
     width: 35%;
-    height: 10%;
+    height: 6.9%;
     position: absolute;
     left: 128%;
-    top: 75%;
+    top: 76.6%;
     font-size: 25px;
     }
     input[id="final"] {
     width: 35%;
-    height: 10%;
+    height: 6.9%;
     position: absolute;
     left: 128%;
-    top: 90%;
+    top: 91.5%;
     font-size: 25px;
     }
 
     input[id="abd1"] {
         width: 35%;
-        height: 10%;
+        height: 6.9%;
         position: absolute;
         left: 128%;
-        top: 105%;
+        top: 106.6%;
         font-size: 25px;
     }
 
     input[id="abd2"] {
         width: 35%;
-        height: 10%;
+        height: 6.9%;
         position: absolute;
         left: 128%;
-        top: 120%;
+        top: 121.3%;
         font-size: 25px;
     }
 
     input[id="abd3"] {
         width: 35%;
-    height: 10%;
-    position: absolute;
-    left: 128%;
-    top: 135%;
-    font-size: 25px;
+        height: 6.9%;
+        position: absolute;
+        left: 128%;
+        top: 136.3%;
+        font-size: 25px;
     }
 
     input[id="abd4"] {
         width: 35%;
-    height: 10%;
-    position: absolute;
-    left: 128%;
-    top: 150%;
-    font-size: 25px;
+        height: 6.9%;
+        position: absolute;
+        left: 128%;
+        top: 151.3%;
+        font-size: 25px;
     }
 
     input[id="but"] {
         width: 35%;
-    height: 10%;
-    position: absolute;
-    left: 128%;
-    top: 165%;
-    font-size: 25px;
+        height: 6.9%;
+        position: absolute;
+        left: 128%;
+        top: 166.3%;
+        font-size: 25px;
     }
     
     
@@ -383,17 +384,11 @@ p[id="sonuc2"] {
 
 }
 
-/* İPHONE 5 CİVARI */
-@media only screen and (max-width:500px){
+/* İPHONE 6 CİVARI */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
     p[id="cizgi"] {
-        position: absolute;
-        color: orange;
-        width: 170%;
-        font-size: 350%;
-        top: 12.5%;
-        display: none;
-    }
-    p[id="cizgi1"] {
         position: absolute;
         color: orange;
         width: 170%;
@@ -403,7 +398,7 @@ p[id="sonuc2"] {
 
 }
 
-/* iphone 6 civarı */
+/* iphone 5 civarı */
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 568px) {
@@ -415,93 +410,122 @@ and (max-device-width : 568px) {
             font-size: 350%;
             top: 12.5%;
             display: none;
+
         }
+        p[id="cizgi1"] {
+            position: absolute;
+            color: orange;
+            width: 170%;
+            font-size: 350%;
+            top: 12.5%;
+            
+        }
+        
     } 
-}
+
 
 /* textlerin MOBİL SÜRÜMÜ */
 
 @media only screen and (max-width : 700px) {
     p[id="ders1"] {
         position: absolute;
-        left: 10%;
-        top: 26%;
-        width: 110%;
-        height: 10%;
+        left: 0%;
+        top: 25.5%;
+        width: 174%;
+        height: 7%;
         font-size: 250%;
+        background-color: lightblue;
     }
     p[id="ders2"] {
         position: absolute;
-        left: 10%;
-        top: 41%;
-        width: 110%;
-        height: 10%;
+        left: 0%;
+        top: 40.5%;
+        width: 174%;
+        height: 7%;
         font-size: 250%;
+        background-color: lightblue;
+
     }
     p[id="ders3"] {
         position: absolute;
-        left: 10%;
-        top: 56%;
-        width: 110%;
-        height: 10%;
+        left: 0%;
+        top: 55.5%;
+        width: 174%;
+        height: 7%;
         font-size: 250%;
+        background-color: lightblue;
+
     }
     p[id="ders4"] {
         position: absolute;
-        left: 10%;
-        top: 71%;
-        width: 110%;
-        height: 10%;
+        left: 0%;
+        top: 70.5%;
+        width: 174%;
+        height: 7%;
         font-size: 250%;
+        background-color: lightblue;
+
     }
     p[id="finalp"] {
         position: absolute;
-        left: 10%;
-        top: 86%;
-        width: 110%;
-        height: 10%;
+        left: 0%;
+        top: 85.5%;
+        width: 174%;
+        height: 7%;
         font-size: 250%;
+        background-color: orange;
+
     }
     p[id="ders5"] {
         position: absolute;
-        left: 10%;
-        top: 101%;
-        width: 100%;
-        height: 10%;
+        left: 0%;
+        top: 100.5%;
+        width: 174%;
+        height: 7%;
         font-size: 250%;
+        background-color: lightblue;
+
     }
     p[id="ders6"] {
         position: absolute;
-        left: 10%;
-        top: 114.5%;
-        width: 100%;
-        height: 10%;
+        left: 0%;
+        top: 115%;
+        width: 174%;
+        height: 7%;
         font-size: 250%;
+        background-color: lightblue;
+
     }
     p[id="ders7"] {
         position: absolute;
-        left: 10%;
-        top: 129.5%;
-        width: 100%;
-        height: 10%;
+        left: 0%;
+        top: 130%;
+        width: 174%;
+        height: 7%;
         font-size: 250%;
+        background-color: lightblue;
+
     }
     p[id="ders8"] {
         position: absolute;
-        left: 10%;
-        top: 144.5%;
-        width: 100%;
-        height: 10%;
+        left: 0%;
+        top: 145%;
+        width: 174%;
+        height: 7%;
         font-size: 250%;
+        background-color: lightblue;
+
     }
     
     p[id="butp"] {
         position: absolute;
-        left: 10%;
-        top: 159.5%;
-        width: 100%;
-        height: 10%;
+        left: 0%;
+        top: 160%;
+        width: 174%;
+        height: 7%;
         font-size: 250%;
+        background-color: orange;
+
     }
     
     p[id="times"] {
@@ -641,13 +665,15 @@ select[id="ocm_"] {
     select[id="ocm_"] {
         background-color: lightblue;
         position: absolute;
-        left: 120%;
-        top: 180%;
+        left: 128%;
+        top: 179.5%;
         width: 35%;
+        height: 9%;
         padding: 16px 20px;
         border: none;
         border-radius: 4px;
         background-color: #f1f1f1;
+        font-size: 175%;
         }
 
 }
